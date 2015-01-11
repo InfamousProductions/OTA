@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.tasks;
+package com.infamous.ota.tasks;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -29,9 +29,9 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.ota.updates.R;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.R;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Utils;
 
 public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements Constants {
     

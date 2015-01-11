@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates;
+package com.infamous.ota;
 
 import java.io.File;
 
@@ -23,10 +23,10 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Environment;
 
-import com.ota.updates.tasks.UpdateProgress;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.tasks.UpdateProgress;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Utils;
 
 public class DownloadRomUpdate implements Constants{
 	

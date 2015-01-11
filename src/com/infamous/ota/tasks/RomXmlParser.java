@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.tasks;
+package com.infamous.ota.tasks;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,9 +33,9 @@ import org.xml.sax.helpers.DefaultHandler;
 import android.content.Context;
 import android.util.Log;
 
-import com.ota.updates.RomUpdate;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Utils;
 
 public class RomXmlParser extends DefaultHandler implements Constants {
 

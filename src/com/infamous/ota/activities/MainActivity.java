@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.infamous.ota.activities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -47,12 +47,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.tasks.LoadUpdateManifest;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.R;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.tasks.LoadUpdateManifest;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Utils;
 
 public class MainActivity extends Activity implements Constants{
 

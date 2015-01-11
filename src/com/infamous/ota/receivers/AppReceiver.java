@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.receivers;
+package com.infamous.ota.receivers;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -23,13 +23,13 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.util.Log;
 
-import com.ota.updates.RomUpdate;
-import com.ota.updates.activities.AvailableActivity;
-import com.ota.updates.activities.MainActivity;
-import com.ota.updates.tasks.LoadUpdateManifest;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.activities.AvailableActivity;
+import com.infamous.ota.activities.MainActivity;
+import com.infamous.ota.tasks.LoadUpdateManifest;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Utils;
 
 public class AppReceiver extends BroadcastReceiver implements Constants{
 

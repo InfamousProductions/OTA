@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.infamous.ota.activities;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -39,11 +39,11 @@ import android.preference.RingtonePreference;
 import android.text.TextUtils;
 import android.util.SparseBooleanArray;
 
-import com.ota.updates.R;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Tools;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.R;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Tools;
+import com.infamous.ota.utils.Utils;
 
 @SuppressLint("SdCardPath")
 @SuppressWarnings("deprecation")

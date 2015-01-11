@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.infamous.ota.utils;
 
 import android.os.Environment;
 

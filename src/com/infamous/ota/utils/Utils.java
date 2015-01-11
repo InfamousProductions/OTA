@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.infamous.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -41,10 +41,10 @@ import android.text.TextUtils;
 import android.text.style.BulletSpan;
 import android.util.Log;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.activities.MainActivity;
-import com.ota.updates.receivers.AppReceiver;
+import com.infamous.ota.R;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.activities.MainActivity;
+import com.infamous.ota.receivers.AppReceiver;
 
 public class Utils implements Constants{
 

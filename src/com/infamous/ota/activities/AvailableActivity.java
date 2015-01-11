@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.activities;
+package com.infamous.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 import android.annotation.SuppressLint;
@@ -42,15 +42,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.ota.updates.DownloadRomUpdate;
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.tasks.GenerateRecoveryScript;
-import com.ota.updates.tasks.UpdateProgress;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Tools;
-import com.ota.updates.utils.Utils;
+import com.infamous.ota.DownloadRomUpdate;
+import com.infamous.ota.R;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.tasks.GenerateRecoveryScript;
+import com.infamous.ota.tasks.UpdateProgress;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Tools;
+import com.infamous.ota.utils.Utils;
 
 public class AvailableActivity extends Activity implements Constants, android.view.View.OnClickListener {
 

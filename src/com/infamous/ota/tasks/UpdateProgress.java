@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.tasks;
+package com.infamous.ota.tasks;
 
 import android.app.DownloadManager;
 import android.content.Context;
@@ -23,9 +23,9 @@ import android.database.CursorIndexOutOfBoundsException;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.ota.updates.activities.AvailableActivity;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
+import com.infamous.ota.activities.AvailableActivity;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
 
 public class UpdateProgress  extends AsyncTask<Long, Integer, Void> implements Constants {
 	

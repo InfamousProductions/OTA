@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates;
+package com.infamous.ota;
 
 
 import java.io.File;
@@ -23,7 +23,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Environment;
 
-import com.ota.updates.utils.Constants;
+import com.infamous.ota.utils.Constants;
 
 public class RomUpdate implements Constants{
     

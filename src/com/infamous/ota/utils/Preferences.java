@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.infamous.ota.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.ota.updates.R;
+import com.infamous.ota.R;
 
 public class Preferences implements Constants{
     

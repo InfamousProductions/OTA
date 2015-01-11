@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.ota.updates.utils;
+package com.infamous.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

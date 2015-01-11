@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.ota.updates.tasks;
+package com.infamous.ota.tasks;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.ota.updates.R;
-import com.ota.updates.RomUpdate;
-import com.ota.updates.utils.Constants;
-import com.ota.updates.utils.Preferences;
-import com.ota.updates.utils.Tools;
+import com.infamous.ota.R;
+import com.infamous.ota.RomUpdate;
+import com.infamous.ota.utils.Constants;
+import com.infamous.ota.utils.Preferences;
+import com.infamous.ota.utils.Tools;
 
 public class GenerateRecoveryScript extends AsyncTask<Void, String, Boolean> implements Constants {
     
