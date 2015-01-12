@@ -18,10 +18,10 @@
 -->
 <resources>
     <string name="about_about_title">About</string>
-    <string name="about_about_summary">This app was born out of my frustration of using other apps that didn\'t work how I wanted them to. I developed it for my ROM, but quickly realised other developers might find this useful as well. As a result, I generalised it and wrote up some implementation guides for other developers to use.</string>
+    <string name="about_about_summary">This app was developed to be an OTA for AndroidFileHost.com</string>
     <string name="about_credits_title">Credits</string>
     <string name="about_credits_summary">Credits Summary</string>
     <string name="about_donate_title">Donate</string>
-    <string name="about_donate_summary">If this app has made your life easier, please consider a donation to the app developer (Kryten2k35)</string>
-    <string name="about_donate_button_summary">Grab me a beer</string>
+    <string name="about_donate_summary">Help us pay to keep our servers so we can continue to bring you pure awesomeness.</string>
+    <string name="about_donate_button_summary">Support us</string>
 </resources>

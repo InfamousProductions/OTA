@@ -69,12 +69,9 @@ public class AboutActivity extends Activity implements OnClickListener{
         String closeHTML = "</font>";
         String newLine = "<br />";
         String creditsText =
-                openHTML + "Matt Booth" + closeHTML + " - Anything not mentioned below" + newLine +
-                openHTML + "Roman Nurik" + closeHTML + " - Android Asset Studio Framework" + newLine +
-                openHTML + "Jeff Gilfelt"+ closeHTML + " - Android Action Bar Style Generator" + newLine + 
-                openHTML + "Brad Greco" + closeHTML + " - DirectoryPicker" + newLine +
-                openHTML + "Ficeto (AllianceROM)" + closeHTML + " - Shell tools" + newLine +
-                openHTML + "StackOverflow" + closeHTML + " - Many, many people";
+                openHTML + "Matt Booth" + closeHTML + " - For the source" + newLine +
+                openHTML + "Jamison904" + closeHTML + " - Making this Infamous" + newLine +
+                openHTML + "Mr Impossible"+ closeHTML + " - All the Infamous updates and hard work" + newLine;  
         creditsSummary.setText(Html.fromHtml(creditsText));
         
         donateButton.setOnClickListener(this);
@@ -82,7 +79,7 @@ public class AboutActivity extends Activity implements OnClickListener{
 
 	@Override
 	public void onClick(View v) {		
-		String url = "http://goo.gl/ZKSY4";
+		String url = "http://goo.gl/Gw2Lf9";
 		Intent intent = new Intent(Intent.ACTION_VIEW);
 		intent.setData(Uri.parse(url));
 		startActivity(intent);

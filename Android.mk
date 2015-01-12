@@ -22,7 +22,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) $(call all-renderscript-files-u
 cards_res := ../../../frameworks/support/v7/cardview/res
 res_dirs := $(cards_res) res
 
-LOCAL_PACKAGE_NAME := OTAUpdates
+LOCAL_PACKAGE_NAME := InfamousOTA
 LOCAL_CERTIFICATE := shared
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
